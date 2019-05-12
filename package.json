@@ -1,0 +1,28 @@
+{
+  "name": "pull-group-fun",
+  "description": "pull-stream that groups items by return value of a user-defined function",
+  "version": "1.0.0",
+  "devDependencies": {
+    "pull-stream": "^3.2.0",
+    "tape": "^4.4.0"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regular/pull-group-fun.git"
+  },
+  "keywords": ["pull-stream"],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "bugs": {
+    "url": "https://github.com/regular/pull-group-fun/issues"
+  },
+  "homepage": "https://github.com/regular/pull-group-fun#readme"
+}
